@@ -1,12 +1,45 @@
 import styled from "styled-components";
 
-export const MultiStepForm = styled.div`
+export const Step = styled.form`
+  flex: 1;
   display: flex;
-  gap: 12px;
-  padding: 12px;
-  background-color: var(--white);
-  border-radius: 16px;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+`;
+
+export const StepHeader = styled.div``;
+
+export const Title = styled.h2`
+  font-size: 36px;
+  font-weight: 700;
+`;
+
+export const Subtitle = styled.h3`
+  color: var(--cool-gray);
+`;
+
+export const Body = styled.div`
+  flex: 1;
+`;
+
+export const StepFooter = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const GoBackButton = styled.button`
+  color: var(--cool-gray);
+  &:hover {
+    color: inherit;
+  }
+`;
+
+export const GoNextButton = styled.button`
+  margin-left: auto;
+  background-color: var(--marine-blue);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: 8px;
 `;
