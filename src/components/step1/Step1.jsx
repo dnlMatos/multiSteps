@@ -1,6 +1,6 @@
 import React from "react";
 import Step from "../step/Step";
-import FormsJSON from "../../../form.json";
+import FormsJSON from "../../form.json";
 
 import * as S from "./style";
 
