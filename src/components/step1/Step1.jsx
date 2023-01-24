@@ -4,7 +4,7 @@ import FormsJSON from "../../../form.json";
 
 import * as S from "./style";
 
-function Step1({ onStepSubmit, formData, ...props }) {
+export default function Step1({ onStepSubmit, formData, ...props }) {
   const { step1 } = FormsJSON;
   const hasError = false;
 
@@ -41,5 +41,3 @@ function Step1({ onStepSubmit, formData, ...props }) {
     </Step>
   );
 }
-
-export default Step1;
