@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import FormJSON from "../../form.json";
-import Step from "../step";
+import Step from "../step/Step";
 
 import * as S from "./style";
 

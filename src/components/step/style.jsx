@@ -6,6 +6,15 @@ export const Step = styled.form`
   flex-direction: column;
   gap: 24px;
   padding: 24px;
+
+  @media only screen and (max-width: 600px) {
+    position: relative;
+    top: -113px;
+    background-color: white;
+    margin: auto;
+    width: 95%;
+    border-radius: 8px;
+  }
 `;
 
 export const StepHeader = styled.div``;
