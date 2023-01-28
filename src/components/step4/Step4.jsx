@@ -1,7 +1,7 @@
 import React from "react";
-import Step from "../step";
+import Step from "../step/Step";
 
-import * as S from "./styled";
+import * as S from "./style";
 
 function Step4({ formData, ...props }) {
   const { billingType, plan } = formData.step2;

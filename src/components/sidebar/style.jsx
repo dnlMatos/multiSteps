@@ -14,6 +14,16 @@ export const Sidebar = styled.div`
   padding: 24px;
   width: 35%;
   border-radius: 8px;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    height: 25%;
+    background-size: cover;
+    background-position-y: -855px;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 0px;
+  }
 `;
 
 export const ItemNumber = styled.span`
@@ -30,6 +40,7 @@ export const Item = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+
   ${ItemNumber} {
     ${({ isActive }) =>
       isActive &&
@@ -39,9 +50,18 @@ export const Item = styled.div`
         border-color: var(--magnolia);
       `}
   }
+
+  @media only screen and (max-width: 600px) {
+    display: initial;
+    margin-top: 5px;
+  }
 `;
 
-export const ItemBody = styled.div``;
+export const ItemBody = styled.div`
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`;
 
 export const Subtitle = styled.h5`
   font-size: 13px;

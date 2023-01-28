@@ -16,7 +16,7 @@ export const Item = styled.label`
   ${({ isSelected }) =>
     isSelected &&
     css`
-      background-color: var(--alabester);
+      background-color: var(--alabaster);
       border-color: var(--purplish-blue);
     `}
   &:hover {
