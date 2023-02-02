@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<div align="center"> <a href='http://brown-airport.surge.sh/'>
+<img class="emoji" src="https://cdn.wedevs.com/uploads/2018/07/WordPress-multi-step-form.png?w=2000" width="250" height="120" emoji-code="stepform" alt="stepform" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">   
+  ### StepForm ### 
+</div>
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+Projeto consiste em apresentar um formulário interativo onde o usuário consiga se situar dentre suas páginas. Projeto proposto pelo https://www.frontendmentor.io
 
-### `npm start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Formulário (sem validações)
+- [x] Gravação dos dados informados 
+- [x] Interação entre opções apresentadas
+- [x] Possibilidade de avanço ou retrocesso nas páginas do formulário
 
-### `npm test`
+</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔧 Tecnologias
 
-### `npm run build`
+<p>Ferramentas utilizadas:</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://pt-br.reactjs.org/)
+- [Javascript](https://www.javascript.com/)
+- [Styled-components](https://styled-components.com/)
+- [Surge](https://surge.sh/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✔️ Gostou e quer testar? (Link Surge)
 
-### `npm run eject`
+[Ir ao site](https://brown-airport.surge.sh)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Layout 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://user-images.githubusercontent.com/60492862/216463439-ce335b29-ece5-46af-92db-627c2a96220a.mp4
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+por Danilo Matos
