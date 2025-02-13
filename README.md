@@ -1,9 +1,9 @@
-<div align="center">   
+<h2 align="center">   
   ### StepForm ### 
-</div>
+</h2>
 
 </br>
-![multSteps](https://github.com/user-attachments/assets/ae6b3aee-c6b6-4d91-9e65-f1f3688e09b4)
+<img src="https://github.com/user-attachments/assets/ae6b3aee-c6b6-4d91-9e65-f1f3688e09b4"/>
 
 </br>
 </br>
